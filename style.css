@@ -1,0 +1,452 @@
+/* ==========================================================================
+   Foundation
+   ========================================================================== */
+
+/* Base
+   ----------------------------------------------------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Impact;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+
+/* ==========================================================================
+   Layout
+   ========================================================================== */
+
+/* Main
+   ----------------------------------------------------------------- */
+
+.l-main {
+  background-image: url("image/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right top;
+  background-size: cover;
+  max-width: 100%;
+}
+
+
+/* ==========================================================================
+   Object
+   ========================================================================== */
+
+/* Component
+   ----------------------------------------------------------------- */
+
+.c-heading-1 {
+  font-size: 4.8rem;
+  font-size: calc(1.2rem + 2.4vw);
+  text-align: center;
+}
+
+.c-heading-1--red {
+  font-size: 4.8rem;
+  font-size: calc(2rem + 2vw);
+  text-align: center;
+  color: rgb(255,0,79);
+}
+
+.c-heading-1--blue {
+  font-size: 4.8rem;
+  font-size: calc(2rem + 2vw);
+  text-align: center;
+  color: rgb(6,247,239);
+}
+
+.c-heading-2 {
+  font-size: 3.6rem;
+  font-size: calc(1.2rem + 1.8vw);
+  text-align: center;
+  color: white;
+}
+
+.c-description--center {
+  color: white;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.c-description--left {
+  color: white;
+  font-size: 1.8rem;
+  text-align: left;
+}
+
+.c-btn__default {
+  width: 100%;
+  position: relative;
+  font-weight: bold;
+}
+
+.c-btn__default--date {
+  width: 100%;
+  position: relative;
+  font-weight: bold;
+  font-size: 1.8rem;
+  font-size: calc(1.3rem + 0.6vw);
+  line-height: 2.3;
+}
+
+.c-btn__default--vote {
+  width: 100%;
+  position: relative;
+  font-weight: bold;
+  font-size: 2rem;
+  font-size: calc(1.3rem + 0.8vw);
+  line-height: 2.3;
+}
+
+.c-btn__commingsoon {
+  width:100%;
+  height:100%;
+  background-color:gray;
+  position:absolute;
+  top:0;
+  left:0;
+  opacity:0.75;
+}
+
+.c-btn__commingsoon--date {
+  width:100%;
+  height:100%;
+  background-color:gray;
+  position:absolute;
+  top:0;
+  left:0;
+  opacity:0.75;
+  font-size: 2.4rem;
+  font-size: calc(2rem + 0.8vw);
+  line-height: 3;
+}
+
+.c-btn__commingsoon--vote {
+  width:100%;
+  height:100%;
+  background-color:gray;
+  position:absolute;
+  top:0;
+  left:0;
+  opacity:0.75;
+  font-size: 2.4rem;
+  font-size: calc(2rem + 1vw);
+  line-height: 3;
+}
+
+
+/* Project
+   ----------------------------------------------------------------- */
+
+.p-eyecatch {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.p-lead {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.p-lead__container__unit__prize {
+  color: white;
+  font-weight: bold;
+  font-size: 1.6rem;
+  font-size: calc(1.4rem + 0.6vw);
+  text-decoration: underline;
+}
+
+.p-date {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 8rem;
+}
+
+.p-date__box {
+  margin: 0 auto;
+  position: relative;
+  border: 3px solid #979797;
+}
+
+.p-date__box__heading {
+  text-align: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: -7rem;
+}
+
+.p-date__box__heading__span {
+  padding: 0 2rem;
+  background: black;
+  color: white;
+  font-size: 8rem;
+  font-weight: bold;
+}
+
+.p-date__box__unit {
+  margin: 0 auto;
+  vertical-align: middle;
+  padding: auto 2rem 0.5rem 2rem;
+}
+
+.p-date__box__unit__cell {
+  display: inline-block;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.p-date__box__unit__cell__text {
+  padding: 1rem;
+  color: black;
+}
+
+.p-date__box__unit__cell__text__lg {
+  font-size: 4rem;
+  font-size: calc(3rem + 1vw);
+  line-height: 6rem;
+  line-height: calc(4.5rem + 1.5vw);
+  margin: 0;
+}
+
+.p-date__box__unit__cell__text__sm {
+  font-size: 2rem;
+  font-size: calc(1.5rem + 0.5vw);
+  line-height: 3rem;
+  line-height: calc(2rem + 1vw);
+  margin: 0;
+}
+
+.p-vote {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.p-vote__container {
+  margin: 0 auto;
+}
+
+.p-vote__container__unit {
+  padding: 1rem;
+  text-align: center;
+}
+
+/* .p-vote__container__unit__btn {
+  width: 100%;
+  font-size: 2.4rem;
+  font-size: calc(1.6rem + 0.8vw);
+  line-height: 2.3;
+  position: relative;
+} */
+
+.p-vote__container__unit__duration {
+  color: white;
+  font-weight: bold;
+  font-size: 1.8rem;
+  font-size: calc(1.5rem + 0.6vw);
+}
+
+.p-circles {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.p-circles__container {
+  margin: 0 auto;
+}
+
+.p-circles__container__univ {
+  padding: 2rem 0rem;
+  text-align: center;
+}
+
+.p-circles__container__univ__img {
+  border-radius: 50%;
+  width:  75%;
+  border: 1px solid white;
+}
+
+.p-circles__container__univ__name {
+  color: white;
+  font-size: 1.6rem;
+  font-size: calc(0.6rem + 0.8vw);
+}
+
+.p-circles__container__univ__sn {
+  border: 1px solid white;
+  border-radius: 3px;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+/* temporary
+.p-circles__container__univ__sn__red {
+  color: rgb(255,0,79);
+  margin-top: 0rem;
+  margin-left: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.p-circles__container__univ__sn__blue {
+  color: rgb(6,247,239);
+  margin-top: -4rem;
+  margin-left: 0rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+*/
+
+.p-circles__container__univ__sn__white {
+  color: white;
+  margin-top: 0rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.p-best-tiktok {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.p-best-tiktok__container {
+  margin: 0 auto;
+}
+
+.p-best-tiktok__container__unit {
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+.p-best-tiktok__container__unit__date {
+  color: white;
+  font-size: 1.6rem;
+  text-align: left;
+  float: left;
+}
+
+.p-best-tiktok__container__unit__name {
+  color: white;
+  font-size: 1.6rem;
+  text-align: right;
+}
+
+.p-best-tiktok__container__unit__img {}
+
+.p-best-tiktok__container__unit__video {
+  width: 100%;
+}
+
+.p-best-tiktok__container__unit__btn {
+  border: 1px solid white;
+  border-radius: 3px;
+  font-size: 1.2rem;
+  line-height: 2;
+}
+
+.p-best-tiktok__container__unit__white {
+  color: white;
+  margin-top: 0rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.p-jdc-lastyear {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.p-jdc-lastyear__slider {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.p-jdc-lastyear__slider__img {}
+
+.p-organizer {
+  margin: 0 auto;
+  padding-top: 8rem;
+}
+
+.p-organizer__container {
+  width: 60%;
+  padding: 5rem 0;
+  margin: 0 auto ;
+  text-align: center;
+}
+
+.p-organizer__container__title {
+  color: white;
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.p-organizer__container__logo {
+  width: 75%;
+}
+
+/* Utility
+   ----------------------------------------------------------------- */
+.u-theme--red {
+  background-color: rgb(255,0,79);
+}
+
+.u-theme--blue {
+  background-color: rgb(6,247,239);
+}
+
+.u-theme--yellow {
+  background-color: rgb(247, 255, 77);
+}
+
+.u-padding-top--40 {
+  padding-top: 4rem
+}
+
+.u-margin-0 {
+  margin: 0;
+}
+
+.u-padding-0 {
+  padding: 0;
+}
+
+.u-color-black {
+  color: black;
+}
+
+/* Others
+   ----------------------------------------------------------------- */
+.slick-dots li button:before {
+  font-size: 20px !important;
+}
+
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: white !important;
+}
+
