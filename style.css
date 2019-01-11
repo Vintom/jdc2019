@@ -350,6 +350,7 @@ span {
   color: white;
   font-size: 1.6rem;
   text-align: right;
+  line-height: 1;
 }
 
 .p-best-tiktok__container__unit__img {}
